@@ -2,7 +2,7 @@
 
 You will be implementing the following ERD with Knex.js:
 
-![](https://www.lucidchart.com/publicSegments/view/8596c6ba-114c-4061-8e89-a659d2f12404/image.png)
+![ERD](erd.png)
 
 NOTE: The only existing file in this repo you need to modify is `data/database_connection.js`, which should export a database connection to your database.
 
