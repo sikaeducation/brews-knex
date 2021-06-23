@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brews Migrations and Seeds</title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">Brews Migrations and Seeds</a></h1>
+        </header>
+        <main>
+          <section class="view" data-name="home">
+            <nav>
+                <ul>
+                    <li><a href="#/breweries">Breweries</a></li>
+                    <li><a href="#/beers">Beers</a></li>
+                </ul>
+            </nav>
+          </section>
+          <section class="view" data-name="breweries">
+            <h2>Breweries</h2>
+            <ul class="breweries"></ul>
+            <p class="no-breweries">No breweries!</p>
+          </section>
+          <section class="view" data-name="beers">
+            <table>
+              <thead>
+                <tr>
+                    <th>Brewery</th>
+                    <th>Beer</th>
+                    <th>ABV</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+            <p class="no-beers">No beers!</p>
+          </section>
+        </main>
+        <footer>
+            <small>&copy; Brews Migrations and Seeds, 2021</small>
+        </footer>
+        <script src="javascripts/router.js" charset="utf-8"></script>
+        <script src="javascripts/views.js" charset="utf-8"></script>
+        <script src="javascripts/controllers.js" charset="utf-8"></script>
+        <script src="javascripts/routes.js" charset="utf-8"></script>
+    </body>
+</html>
